@@ -42,7 +42,7 @@
     row-gap: 56px;
     grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
 }
-.hero-bottom > img{
+.hero-bottom > a{
     margin: auto;
 }
 .firstSocialProof {

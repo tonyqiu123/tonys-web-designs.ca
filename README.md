@@ -1,3 +1,2 @@
-All the code to my summer business' website made with HTML, CSS, and JavaScript.
 
-<a href="https://tonyswebdesigns.ca/" target="_blank">Checkout the live website!</a>
+<img src="https://cdn.discordapp.com/attachments/715319623637270638/1069372161501970462/image.png"/>

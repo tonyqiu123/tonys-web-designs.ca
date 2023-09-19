@@ -1,0 +1,322 @@
+.hero-butCont {
+    justify-content: unset;
+    gap: 24px;
+}
+.hero {
+    background-color: rgba(255, 255, 255, 0);
+    gap: 120px;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.hero-top {
+    gap: 60px;
+}
+.hero-textContainer {
+    max-width: 525px;
+    gap: 40px;
+}
+.hero-textContainer > p:first-of-type {
+    font-size: 22px;
+}
+.hero-right {
+    max-width: 700px;
+    gap: 24px;
+    overflow: hidden;
+}
+.hero-right > div {
+    gap: 40px;
+    justify-content: unset;
+    transition: transform .1s cubic-bezier(.17,.67,.22,.95);
+}
+.hero-right img {
+    border-radius: 8px;
+    height: 250px;
+    border: 1px solid var(--neutral-2);
+    box-shadow: var(--shadow-m);
+}
+.hero-right-bottom {
+    transform: translateX(-630px);
+}
+.hero-bottom {
+    display: grid;
+    row-gap: 56px;
+    grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+}
+.hero-bottom > a{
+    margin: auto;
+}
+.firstSocialProof {
+    display: none;
+}
+/* FEATURES */
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.features-textContainer {
+    gap: 24px;
+    max-width: 550px;
+}
+.features-feature {
+    justify-content: unset;
+    align-items: flex-start;
+    gap: 16px;
+}
+.features .primaryButton {
+    margin-top: 16px;
+}
+.features > img {
+    border: 1px solid var(--neutral-2);
+    width: 100%;
+    box-shadow: var(--shadow-m);
+}
+/* WHATS INCLUDED */
+.whatsIncluded {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.whatsIncluded > img {
+    width: 100%;
+    box-shadow: var(--shadow-m);
+}
+.whatsIncluded-right {
+    gap: 24px;
+}
+.whatsIncluded-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: flex-start;
+}
+.whatsIncluded-item {
+    gap: 8px;
+}
+.whatsIncluded-item > img {
+    width: 64px;
+}
+/* RESULTS */
+.resultsContainer {
+    background-image: url("https://cdn.discordapp.com/attachments/715319623637270638/1010003015601754142/image_16.png");
+    width: 100%;
+    background-color: var(--neutral-6);
+}
+.results {
+    background-image: url("https://cdn.discordapp.com/attachments/715319623637270638/1010003015601754142/image_16.png");
+    background-color: var(--neutral-6);
+    gap: 40px;
+}
+.results * {
+    color: var(--neutral-1);
+}
+.results-textContainer {
+    gap: 40px;
+    width: 100%;
+    align-items: flex-start;
+}
+.results-textContainer > h3 {
+    max-width: 400px;
+    color: var(--white);
+}
+.results-textContainer > p {
+    max-width: 600px;
+}
+.results-buttonsContainer {
+    border-radius: 8px;
+    gap: 12px;
+    margin-bottom: -32px;
+    width: fit-content;
+    padding: 10px 12px;
+    border: 1px solid var(--neutral-4);
+}
+.results-buttonsContainer > p {
+    border-radius: 4px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: background-color .5s;
+    color: var(--neutral-1);
+}
+.results-buttonsContainer > p:first-of-type {
+    background-color: var(--neutral-4);
+}
+.results > iframe {
+    height: 100vh;
+    max-height: 1200px;
+    border-radius: 8px;
+    border: 2px solid var(--neutral-6);
+}
+/* PRICING */
+.pricing {
+    align-items: center;  
+    gap: 24px;
+}
+.pricing > h3 {
+    text-align: center;
+}
+.pricing > p {
+    max-width: 720px;
+    text-align: center;
+}
+.pricing-columnsContainer {
+    align-items: flex-start;
+    transition: opacity .35s, transform 1s;
+    gap: 32px;
+}
+.pricing-column {
+    margin-top: 32px;
+    width: 100%;
+    background-color: var(--white);
+    padding: 24px;
+    border: 1px solid var(--neutral-3);
+    gap: 24px;
+    border-radius: 8px;
+}
+.pricing-column h6 {
+    margin-top: 5px;
+}
+.pricing-popularContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-popularContainer > p {
+    font-size: 16px;
+    background-color: var(--neutral-6);
+    color: var(--neutral-1);
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+.pricing-column {
+    max-width: 500px;
+}
+.pricing-column > h3 {
+    margin-bottom: 16px;
+}
+.pricing-column > .row {
+    justify-content: unset;
+    align-items: flex-start;
+    gap: 16px;
+}
+.pricing-column > .wideButton {
+    margin-top: 16px;
+}
+.popular {
+    border: 3px solid rgb(0, 0, 0);
+}
+/* FAQ */
+.faqCont {
+    width: 100%;
+    background-color: #F3F3F3;
+}
+.faq {
+    background-color: #F3F3F3;
+    align-items: flex-start;
+    gap: 64px;
+}
+.faq-left {
+    max-width: 500px;
+    gap: 24px;
+}
+.faq-right {
+    max-width: 650px;
+    display: grid;
+    gap: 32px 48px;
+    grid-template-columns: 1fr 1fr;
+}
+.faq-qnaCont {
+    justify-content: unset;
+    gap: 8px;
+}
+.faq-qnaCont > h6 {
+    line-height: 150%;
+}
+@media only screen and (max-width: 1100px) {
+    .results-textContainer {
+        flex-direction: column;
+    }
+    .results-textContainer > p {
+        max-width: 760px;
+    }
+    .pricing-columnsContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .faq {
+        flex-direction: column;
+    }
+    .faq-right {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 1025px) {
+    .hero {
+        height: unset;
+        min-height: unset;
+        max-height: unset;
+    }
+    .hero-top {
+        flex-direction: column;
+        gap: 100px;
+    }
+    .hero-textContainer {
+        text-align: center;
+        align-items: center;
+        gap: 32px;
+    }
+    .hero-right {
+        max-width: 100%;
+    }
+    .hero-right img {
+        height: 250px;
+    }
+    .firstSocialProof {
+        width: 100%;
+        display: unset;
+    }
+    .secondSocialProof {
+        display: none;
+    }
+    .hero-bottom {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+    .hero-bottom > img{
+        max-width: 200px;
+        max-height: 36px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .features {
+        grid-template-columns: 1fr;
+        gap: 80px;
+    }
+    .features-textContainer {
+        max-width: unset;
+    }
+    .features-textContainer > h3 {
+        max-width: 500px;
+    }
+    .whatsIncluded {
+        grid-template-columns: 1fr;
+        gap: 80px;
+    }
+    .whatsIncluded > img {
+        order: 2;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .pricing-columnsContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .hero {
+        margin-top: 120px;
+    }
+    .hero-top {
+        flex-direction: column;
+        gap: 100px;
+    }
+    .hero-textContainer {
+        gap: 40px;
+    }
+}

@@ -1,18 +1,17 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L8XH99K2Y7"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-L8XH99K2Y7');
+        gtag('config', 'G-L8XH99K2Y7');
     </script>
- 
+
     <!-- META TAGS GENERAL -->
     <link rel="cannonical" href="https://tonyswebdesigns.ca">
     <meta name="keywords" content="Canadian Web Design Company">
@@ -30,10 +29,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="HandheldFriendly" content="true"/> 
-    <meta name="MobileOptimized" content="320"/> 
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
     <link rel="shortcut icon" href="imgs/logo.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="imgs/logo.svg" type="image/svg+xml"/>
+    <link rel="apple-touch-icon" href="imgs/logo.svg" type="image/svg+xml" />
     <link rel="icon" href="imgs/logo.svg" type="image/svg+xml">
     <meta name="theme-color" content="#266AA1">
     <title>Contact - Tony Qiu</title>
@@ -41,57 +40,70 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="contact.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <script src="https://web-analytics-83e1.vercel.app/tracker.js"></script>
 </head>
+
 <body>
-    
+
 
     <!-- NAVBAR -->
     <div class="nav">
         <nav class="row">
-            <a href="index"><img src="imgs/logonav.svg"/></a>
+            <a href="index"><img src="imgs/logonav.svg" /></a>
             <div class="nav-right row">
-                <a href="index"><p>Home</p></a>
-                <a href="work"><p>Work</p></a>
+                <a href="index">
+                    <p>Home</p>
+                </a>
+                <a href="work">
+                    <p>Work</p>
+                </a>
                 <!-- <li> -->
-                    <!-- <a href="about" class="row"><p>Contact</p><img src="/allPurposeFiles/down chevron.svg"/></a> -->
-                    <!-- <div class="nav-right-dropDown column">
+                <!-- <a href="about" class="row"><p>Contact</p><img src="/allPurposeFiles/down chevron.svg"/></a> -->
+                <!-- <div class="nav-right-dropDown column">
                         <a href="meet-the-team" class="row"><img src="allPurposeFiles/navMTT.svg"/><p>Meet the team</p></a>
                     </div> -->
                 <!-- </li> -->
-                <a class="navConsult" href="contact"><button class="primaryButton row"><p>Let's get in touch</p></button></a>
+                <a class="navConsult" href="contact"><button class="primaryButton row">
+                        <p>Let's get in touch</p>
+                    </button></a>
             </div>
-            <img src="imgs/burger.svg" class="burger"/>
+            <img src="imgs/burger.svg" class="burger" />
         </nav>
     </div>
     <main>
 
-    <!-- NAVBAR-MOBILE -->
-    <div class="navMobile">
-        <div class="navMobile-top row">
-            <a href="index"><img src="imgs/logonav.svg"/></a>
-            <img src="imgs/burger.svg" class="burgerMobile"/>
+        <!-- NAVBAR-MOBILE -->
+        <div class="navMobile">
+            <div class="navMobile-top row">
+                <a href="index"><img src="imgs/logonav.svg" /></a>
+                <img src="imgs/burger.svg" class="burgerMobile" />
+            </div>
+            <div class="navMobile-bot column">
+                <a href="index">
+                    <p>Home</p>
+                </a>
+                <a href="work">
+                    <p>Work</p>
+                </a>
+                <a style="border-bottom: 1px solid var(--neutral-4)" href="contact">
+                    <p>Contact</p>
+                </a>
+            </div>
         </div>
-        <div class="navMobile-bot column">
-            <a href="index"><p>Home</p></a>
-            <a href="work"><p>Work</p></a>
-            <a style="border-bottom: 1px solid var(--neutral-4)" href="contact"><p>Contact</p></a>
+        <!-- NAVBAR-MOBILE BLACK BG -->
+        <div class="blackBG"></div>
+
+
+
+        <!-- NONHOME HERO -->
+        <div class="nonHomeHero">
+            <img src="https://cdn.discordapp.com/attachments/715319623637270638/1010916638977183755/unknown.png" />
+            <h1>Contact</h1>
         </div>
-    </div>   
-    <!-- NAVBAR-MOBILE BLACK BG -->
-    <div class="blackBG"></div>
 
 
-
-    <!-- NONHOME HERO -->
-    <div class="nonHomeHero">
-        <img src="https://cdn.discordapp.com/attachments/715319623637270638/1010916638977183755/unknown.png"/>
-         <h1>Contact</h1>
-    </div>
-
-
-         <!-- CONTACT -->
-         <section class="contact row">
+        <!-- CONTACT -->
+        <section class="contact row">
             <form class="contact-left column" action="https://formsubmit.co/tonyqiu12345@gmail.com" method="POST">
                 <h3>Contact Form</h3>
                 <p class="largeText">Feel free to contact us regarding any concerns or inquiries</p>
@@ -101,25 +113,29 @@
                 <input required type="email" name="email" required placeholder="johndoe@gmail.com">
                 <p>Phone number</p>
                 <input required type="phone" name="phone" required placeholder="+1 201-555-0123">
-                
+
                 <p>Message</p>
-                <textarea name="message" required type="text" placeholder="I need design and development for my website. How can we start?"></textarea>
+                <textarea name="message" required type="text"
+                    placeholder="I need design and development for my website. How can we start?"></textarea>
                 <input type="hidden" name="_next" value="https://brightbearsinfo.com/thanks">
                 <input type="hidden" name="_captcha" value="false">
-                <a class="wideButton"><button type="submit" class="primaryButton"><p>Submit</p></button></a>
+                <a class="wideButton"><button type="submit" class="primaryButton">
+                        <p>Submit</p>
+                    </button></a>
             </form>
             <div class="contact-right column">
                 <h3>Contact Information</h3>
-                <p>Whether you’re interested in our referral program or a custom soltuion, we’re here to help you find the right plan to support your need. Tell us about you and we’ll be in touch.</p>
+                <p>Whether you’re interested in our referral program or a custom soltuion, we’re here to help you find
+                    the right plan to support your need. Tell us about you and we’ll be in touch.</p>
                 <div class="row">
-                    <img src="imgs/Icons/mail.svg"/>
+                    <img src="imgs/Icons/mail.svg" />
                     <div class="column">
                         <h6>Chat with us</h6>
                         <p>Reach out to us at <a href="mailto:tonyqiu12345@gmail.com">tonyqiu12345@gmail.com</a></p>
                     </div>
                 </div>
                 <div class="row">
-                    <img src="imgs/Icons/phone.svg"/>
+                    <img src="imgs/Icons/phone.svg" />
                     <div class="column">
                         <h6>Call us</h6>
                         <p>Call us on <a href="tel:437-774-3365">+1 (437) 774-3365</a></p>
@@ -133,20 +149,26 @@
             <section class="faq row">
                 <div class="faq-left column">
                     <h3>Frquently Asked Questions</h3>
-                    <p>Couldn't find an answer? Get a direct answer from us by calling my number at <a href="tel:437-774-3365">437-774-3365</a> or email us at <a href="mailto: tonyqiu12345@gmail.com">tonyqiu12345@gmail.com</a>.<br><br>We're available 10am to 10pam Monday to Sunday.</p>
+                    <p>Couldn't find an answer? Get a direct answer from us by calling my number at <a
+                            href="tel:437-774-3365">437-774-3365</a> or email us at <a
+                            href="mailto: tonyqiu12345@gmail.com">tonyqiu12345@gmail.com</a>.<br><br>We're available
+                        10am to 10pam Monday to Sunday.</p>
                 </div>
                 <div class="faq-right">
                     <div class="faq-qnaCont column">
                         <h6>What's the commitment?</h6>
-                        <p>To get steady online traffic for your business, you must work with us for 6 months. This helps you reap the rewards of a fast website that search engines will love to promote.</p>
+                        <p>To get steady online traffic for your business, you must work with us for 6 months. This
+                            helps you reap the rewards of a fast website that search engines will love to promote.</p>
                     </div>
                     <div class="faq-qnaCont column">
                         <h6>What happens if I want to cancel?</h6>
-                        <p>If you want to cancel our service after the commitment, you will receive all the code to your website and you get free hosting for the remainder of the calendar year.</p>
+                        <p>If you want to cancel our service after the commitment, you will receive all the code to your
+                            website and you get free hosting for the remainder of the calendar year.</p>
                     </div>
                     <div class="faq-qnaCont column">
                         <h6>How long does a new website take to build?</h6>
-                        <p>From our experience, making a new website for a client takes around 4 - 6 days. Never longer than 7.</p>
+                        <p>From our experience, making a new website for a client takes around 4 - 6 days. Never longer
+                            than 7.</p>
                     </div>
                     <div class="faq-qnaCont column">
                         <h6>Do you do e-commerce?</h6>
@@ -154,7 +176,8 @@
                     </div>
                     <div class="faq-qnaCont column">
                         <h6>How can I get started?</h6>
-                        <p>Tell us about your website needs through our contact form <a href="contact">here</a> and we'll email you your next steps.</p>
+                        <p>Tell us about your website needs through our contact form <a href="contact">here</a> and
+                            we'll email you your next steps.</p>
                     </div>
                 </div>
             </section>
@@ -164,27 +187,47 @@
         <footer class="column">
             <div class="footer-top row">
                 <div class="column">
-                    <a class="row" href="" style="height: fit-content"><img src="imgs/footerlogo.svg"/></a>
-                    <p style="color: var(--neutral-3); font-size: 16px; margin-bottom: 8px">Tony's Web Designs is an online Web Design company based in Toronto that helps Canadians effectively communicate their brand through their website.</p>
+                    <a class="row" href="" style="height: fit-content"><img src="imgs/footerlogo.svg" /></a>
+                    <p style="color: var(--neutral-3); font-size: 16px; margin-bottom: 8px">Tony's Web Designs is an
+                        online Web Design company based in Toronto that helps Canadians effectively communicate their
+                        brand through their website.</p>
                 </div>
                 <div class="row">
                     <div class="footer-top-list column">
                         <p>Navigation</p>
-                        <a href="index"><p>Home</p></a>
-                        <a href="index"><p>Projects</p></a>
-                        <a href="contact"><p>Contact us</p></a>
+                        <a href="index">
+                            <p>Home</p>
+                        </a>
+                        <a href="index">
+                            <p>Projects</p>
+                        </a>
+                        <a href="contact">
+                            <p>Contact us</p>
+                        </a>
                     </div>
                     <div class="footer-top-list column">
                         <p>Past projects</p>
-                        <a href="https://brightbearsinfo.com/" target="_blank"><p>BrightBearsInfo</p></a>
-                        <a href="https://friendaccounting.com/" target="_blank"><p>FriendAccounting</p></a>
-                        <a href="https://www.sofarocean.com/" target="_blank"><p>Sofar Ocean</p></a>
+                        <a href="https://brightbearsinfo.com/" target="_blank">
+                            <p>BrightBearsInfo</p>
+                        </a>
+                        <a href="https://friendaccounting.com/" target="_blank">
+                            <p>FriendAccounting</p>
+                        </a>
+                        <a href="https://www.sofarocean.com/" target="_blank">
+                            <p>Sofar Ocean</p>
+                        </a>
                     </div>
                     <div class="footer-top-list column">
                         <p>Contact</p>
-                        <a href="contact"><p>Send an inquiry</p></a>
-                        <a href="tel:437-774-3365"><p>Tel: 437-774-3365</p></a>
-                        <a href="mailto:tonyqiu12345@gmail.com"><p>tonyqiu12345@gmail.com</p></a>
+                        <a href="contact">
+                            <p>Send an inquiry</p>
+                        </a>
+                        <a href="tel:437-774-3365">
+                            <p>Tel: 437-774-3365</p>
+                        </a>
+                        <a href="mailto:tonyqiu12345@gmail.com">
+                            <p>tonyqiu12345@gmail.com</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -204,7 +247,8 @@
             once: true,
             duration: 1000,
             distance: 5
-         })
-      </script>
+        })
+    </script>
 </body>
+
 </html>
